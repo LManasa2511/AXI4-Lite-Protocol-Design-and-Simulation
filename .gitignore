@@ -1,0 +1,46 @@
+# Ignore simulation outputs
+*.vcd
+*.wlf
+*.fst
+*.lxt*
+*.vpd
+
+# Ignore build/simulation directories
+work/
+sim/
+out/
+build/
+cache/
+
+# Ignore Vivado / Questa / ModelSim temporary files
+*.jou
+*.log
+*.str
+*.pb
+*.rpt
+*.dmp
+*.wdb
+*.ucdb
+*.svf
+
+# Ignore backup files
+*~
+*.bak
+*.tmp
+
+# Ignore waveform/config files
+*.do
+*.ini
+*.cfg
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore generated files
+*.bit
+*.bin
+*.mmi
+*.xml
+*.html
+*.json
